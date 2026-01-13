@@ -56,8 +56,9 @@
             "vite": "^6.4.1"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "npx vite build",
-            "preview": "vite preview"
-      }
+    "prebuild": "chmod +x node_modules/.bin/vite",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  }
 }
