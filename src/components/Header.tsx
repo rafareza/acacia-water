@@ -17,7 +17,6 @@ export function Header({ cartItems, onCartClick }: HeaderProps) {
     { name: 'Beranda', href: '#' },
     { name: 'Produk', href: '#products' },
     { name: 'Layanan', href: '#services' },
-    { name: 'Tentang Kami', href: '#about' },
     { name: 'Kontak', href: '#contact' },
   ];
 

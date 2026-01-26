@@ -302,8 +302,8 @@ export default function App() {
               },
               {
                 icon: Clock,
-                title: '24 Jam',
-                description: 'Layanan sepanjang hari'
+                title: '08:00 - 17:00',
+                description: 'Jam operasional'
               },
               {
                 icon: Shield,
@@ -383,12 +383,12 @@ export default function App() {
               {
                 title: 'Pengantaran Express',
                 description: 'Layanan antar kilat dalam 30 menit untuk area tertentu',
-                features: ['Prioritas tinggi', 'Tracking real-time', 'Gratis ongkir minimum order']
+                features: ['Prioritas tinggi', 'Gratis ongkir minimum order']
               },
               {
                 title: 'Paket Berlangganan',
                 description: 'Hemat lebih banyak dengan paket langganan bulanan',
-                features: ['Diskon hingga 15%', 'Jadwal antar tetap', 'Prioritas stok']
+                features: ['Jadwal antar tetap', 'Prioritas stok']
               }
             ].map((service, index) => (
               <Card key={index}>
